@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Personas20182</string>
+    <string name="app_name" >Calculadora</string>
+    <string name="titulo" >Calculator</string>
+    <string name="Primer_Numero" >Primer Numero</string>
+    <string name="Segundo_Numero" >Segundo Numero</string>
+    <string name="limpiar" >Limpiar </string>
+    <string name="calcular">Calcular</string>
+    <string name="suma" >Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division" >Division</string>
+    <string-array name="opciones">
+        <item>@string/suma</item>
+        <item>@string/resta</item>
+        <item>@string/multiplicacion</item>
+        <item>@string/division</item>
+    </string-array>
 </resources>
