@@ -9,6 +9,9 @@
     <string name="resta">Resta</string>
     <string name="multiplicacion">Multiplicacion</string>
     <string name="division" >Division</string>
+    <string name="error_numero_uno">Digite el número uno</string>
+    <string name="error_numero_dos">Digite el número dos</string>
+    <string name="error_numero_tres">No puede dividir entre 0</string>
     <string-array name="opciones">
         <item>@string/suma</item>
         <item>@string/resta</item>

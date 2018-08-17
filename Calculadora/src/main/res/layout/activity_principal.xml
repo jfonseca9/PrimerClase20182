@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Primer_Numero"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/txtSegundoNumero"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Segundo_Numero"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <Spinner
         android:id="@+id/cmbOpciones"
@@ -64,6 +64,7 @@
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textSize="18sp" />
 
 </LinearLayout>

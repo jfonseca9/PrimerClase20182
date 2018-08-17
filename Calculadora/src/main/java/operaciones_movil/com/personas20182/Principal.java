@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Principal extends AppCompatActivity {
     //Declaro las variables con las que voy a trabajar
@@ -67,4 +68,26 @@ public class Principal extends AppCompatActivity {
         n1.requestFocus();
         operaciones.setSelection(0);
     }
-}
+    public boolean validar(){
+        int opcion = operaciones.getSelectedItemPosition();
+
+        if(n1.getText().toString().isEmpty()){
+            n1.requestFocus();
+            n1.setError(recursos.getString(R.string.error_numero_uno));
+            return false;
+        }
+        if (n2.getText().toString().isEmpty()){
+            n2.requestFocus();
+            n2.setError(recursos.getString(R.string.error_numero_dos));
+            return false;
+        }
+
+        if(opcion==3 && Double.parseDouble(n2.getText().toString())==0){
+            n2.requestFocus();
+            n2.setError(recursos.getString(R.string.error_numero_tres));
+            return false;
+        }
+
+        return true;
+    }
+    }

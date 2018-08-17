@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="titulo" translatable="false">Calculator</string>
-    <string name="Primer_Numero" translatable="false">First Number</string>
-    <string name="Segundo_Numero" translatable="false">Second Number</string>
-    <string name="calcular" translatable="false">Calculate</string>
-    <string name="limpiar" translatable="false">Clear</string>
-    <string name="suma" translatable="false">Addition</string>
-    <string name="resta" translatable="false">Subtraction</string>
-    <string name="multiplicacion" translatable="false">Multiplication</string>
-    <string name="division" translatable="false">Division</string>
-
+    <string name="titulo" >Calculator</string>
+    <string name="Primer_Numero">First Number</string>
+    <string name="Segundo_Numero" >Second Number</string>
+    <string name="calcular">Calculate</string>
+    <string name="limpiar" >Clear</string>
+    <string name="suma" >Addition</string>
+    <string name="resta">Subtraction</string>
+    <string name="multiplicacion" >Multiplication</string>
+    <string name="division" >Division</string>
+    <string name="error_numero_uno">Type number one</string>
+    <string name="error_numero_dos">Type number two</string>
+    <string name="error_numero_tres">Can\'t type number 0</string>
 </resources>
